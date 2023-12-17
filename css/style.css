@@ -653,10 +653,8 @@ body::after {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  -webkit-transition: -webkit-transform 0.4s ease 0s;
-  transition: -webkit-transform 0.4s ease 0s;
-  transition: transform 0.4s ease 0s;
-  transition: transform 0.4s ease 0s, -webkit-transform 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
   background-color: #eee;
   width: 100%;
   max-width: 62.5rem;
