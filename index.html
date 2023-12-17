@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231217174219">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="preloader__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture></div>
+		<div>Pomagamy <span>od 2015 roku</span></div>
+	</div>
+	<div data-scroll-container id="target">
+		<div class="wrapper">
+			<a data-scroll-to href="#head" data-scroll data-scroll-sticky data-scroll-target="#target" class="go-top _icon-arrow-light"></a>
+			<a href="#" class="go-phone _icon-phone" data-scroll data-scroll-sticky data-scroll-target="#target"></a>
+			<div class="atantion" data-scroll data-scroll-sticky data-scroll-target="#target">
+				<div class="atantion__box">
+					Pomogliśmy już 300+
+					osobom!<button type="button" class="button _icon-close"></button>
+				</div>
+
+			</div>
+			<header class="header" id="head">
+				<div class="header__container">
+					<div class="header__logo-box">
+						<div class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture></div>
+						<div>Pomagamy <span>od 2015 roku</span></div>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__link _hover-link" data-scroll-to href="#about">About us</a></li>
+								<li class="menu__item"><a data-scroll-to href="#reviews" class="menu__link _hover-link">Reviews</a></li>
+								<li class="menu__item"><a data-scroll-to href="#contacts" class="menu__link _hover-link">Contacts</a></li>
+								<!-- <li class="menu__item"><a data-scroll-to href="#faq" class="menu__link _hover-link">Faq</a></li> -->
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<a href="#" data-popup=".callback" class="_red-btn btn">Prześlij swoją aplikację</a>
+						<a href="legal.html" class="_light-btn btn">REGULAMIN ORAZ POLITYKA PRYWATNOŚCI</a>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<section class="main">
+					<div class="main__container">
+						<div class="main__top top-main">
+							<h1 class="top-main__info">Oczekujemy na Twoje zapytanie przez całą dobę, 7 dni w tygodniu.</h1>
+							<a class="_icon-phone" href="tel:739 257 999">
+								<p class="_line-hover">739 257 999</p>
+							</a>
+							<a class="_icon-mail" href="mailto:biuro@restrukturyzacjapl.pl">
+								<p class="_line-hover">biuro@restrukturyzacjapl.pl</p>
+							</a>
+						</div>
+						<div class="main__body">
+							<div class="main__box">
+								<div class="main__title">
+									<h1>Czy Twoja firma potrzebuje restrukturyzacji z powodu problemów finansowych? Nie musisz
+										ogłaszać upadłości – jest lepszy sposób!</h1>
+									<p>Działaj z prewencją i uniknij problemów – nie zwlekaj!</p>
+								</div>
+								<div class="main__effect effect-main">
+									<div class="effect-main__number">90%</div>
+									<p class="effect-main__info">skuteczności</p>
+									<img src="img/static/02.svg" alt="Effect image">
+								</div>
+							</div>
+							<div class="main__hero hero-main">
+								<div class="hero-main__body">
+									<p class="hero-main__text">Jesteśmy dostępni, aby pomóc Ci w restrukturyzacji firmy i
+										przezwyciężeniu problemów finansowych.
+										Nie pozwól, aby lata trudu poszły na marne.</p>
+									<div class="hero-main__inner">
+										<div class="hero-main__left">
+											<img src="img/static/01.svg" alt="image">
+										</div>
+										<div class="hero-main__riht">
+											<ul class="hero-main__list">
+												<li class="hero-main__item">Nie musisz ogłaszać upadłości</li>
+												<li class="hero-main__item">Nie tracisz swojej firmy</li>
+												<li class="hero-main__item">Chronisz majątek</li>
+												<li class="hero-main__item">Generujesz dochody</li>
+											</ul>
+											<form class="hero-main__form	 form-contacts-bottom">
+												<div class="form-contacts-bottom__title">Napisz do nas teraz! Rozwiążemy Twój
+													problem.
+												</div>
+												<div class="form-contacts-bottom__item item-form-contacts-bottom">
+													<label for="name">Imię i nazwisko: Opcjonalnie</label>
+													<input id="name" autocomplete="off" type="text" name="form[]" placeholder="Wpisz swoje imię i nazwisko" class="input">
+												</div>
+												<div class="form-contacts-bottom__item item-form-contacts-bottom">
+													<label for="phone">Telefon:</label>
+													<input id="phone" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój numer telefonu" class="input">
+												</div>
+												<div class="form-contacts-bottom__item item-form-contacts-bottom">
+													<label for="email">E-mail:</label>
+													<input id="email" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój adres e-mail" class="input">
+												</div>
+												<div class="form-contacts-bottom__item item-form-contacts-bottom select-item">
+													<label for="">Wysokość zadłużenia:</label>
+													<select name="form[]" data-class-modif="form">
+														<option value="" selected>Wysokość zadłużenia</option>
+														<option value="2">do 10.000 zł</option>
+														<option value="3">do 50.000 zł</option>
+														<option value="4">do 100.000 zł</option>
+														<option value="4">do 500.000 zł</option>
+														<option value="5">powyżej 500.000 zł</option>
+													</select>
+												</div>
+												<button type="submit" class="_red-btn btn">Wyślij i wyjdź z długów</button>
+												<div class="checkbox">
+													<input checked id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_1" class="checkbox__label _icon-check"><span class="checkbox__text">Zgodnie z
+															zasadami Regulaminu i Polityki Prywatności zgadzam się na przetwarzanie
+															moich danych
+															osobowych przez Administratora - pfkancelaria Sp. z o.o</span></label>
+												</div>
+											</form>
+
+											<div class="hero-main__link _icon-arrow"></div>
+										</div>
+									</div>
+
+
+								</div>
+								<div class="hero-main__pictures pictures-hero-main">
+									<picture><source srcset="img/main/01.webp" type="image/webp"><img src="img/main/01.jpg" alt="image"></picture>
+									<div class="pictures-hero-main_box">
+										<div class="pictures-hero-main_box__top">
+											<picture><source srcset="img/main/02.webp" type="image/webp"><img src="img/main/02.jpg" alt="image"></picture>
+											<picture><source srcset="img/main/03.webp" type="image/webp"><img src="img/main/03.jpg" alt="image"></picture>
+										</div>
+										<div class="pictures-hero-main_box__bottom">
+											<picture><source srcset="img/main/04.webp" type="image/webp"><img src="img/main/04.jpg" alt="image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="about" id="about">
+					<div class="about__container">
+						<h2 class="about__title">Osiągnęliśmy sukces w ponad 250 sprawach oddłużeniowych.</h2>
+						<div class="about__info">
+							<p>Chcesz dowiedzieć się więcej na temat restrukturyzacji firmy? Twoja firma boryka się z
+								problemami finansowymi? Szukasz rozwiązania, aby ocalić przedsiębiorstwo przed komornikiem?
+								Jesteśmy ekspertami w dziedzinie restrukturyzacji firm.</p>
+							<p>Nie rezygnuj! Jesteś profesjonalistą w swojej branży, a każdą firmę można odnowić. Nasze
+								działania pomogą Ci rozwiązać kwestie finansowe, windykację, uniknąć komornika i uporać się z
+								nieuczciwymi kontrahentami. Odzyskaj płynność finansową!
+							</p>
+						</div>
+						<div class="about__items">
+							<div class="about__item item-about">
+								<div class="item-about__image"><img src="img/icons/03.svg" alt="image"></div>
+
+								<h3 class="item-about__title">Dokładna analiza.</h3>
+								<h4 class="item-about__info">Przeprowadzimy dokładną i rzeczową analizę Twojej sytuacji.
+									Wyznaczymy cele zgodne z Twoimi oczekiwaniami i kompleksowo przygotujemy do postępowania.
+								</h4>
+							</div>
+							<div class="about__item item-about">
+								<div class="item-about__image"><img src="img/icons/04.svg" alt="image"></div>
+
+								<h3 class="item-about__title">Pomoc dla każdego.</h3>
+								<h4 class="item-about__info">Zapewniamy 100% gwarancji jakości obsługi klienta. Pomagamy w
+									kompletowaniu koniecznej dokumentacji i służymy wsparciem w każdym etapie postępowania
+									upadłości konsumenckiej.
+								</h4>
+							</div>
+							<div class="about__item item-about">
+								<div class="item-about__image"><img src="img/icons/05.svg" alt="image"></div>
+
+								<h3 class="item-about__title">Wiedza i doświadczenie.</h3>
+								<h4 class="item-about__info">Jako jedyni na rynku usług prawnych posiadamy odpowiednią wiedzę i
+									doświadczenie, dzięki którym od lat pomagamy naszym klientom rozpocząć nowe życie bez długów.
+								</h4>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="next">
+					<div class="next__container">
+						<div class="next__info">
+							<h2 class="next__title">Odbuduj swoją przyszłość finansową z naszą pomocą. Sprawdź naszą
+								skuteczność.
+							</h2>
+							<p class="next__text">Prowadzimy procesy restrukturyzacji firm. Ocalamy przedsiębiorstwa i
+								umożliwiamy
+								im kontynuację działalności bez obciążających zadłużeń, zgodnie z zasadami rynkowymi.
+								Restrukturyzacja to działanie mające na celu uzdrowienie aspektów finansowych i prawnych
+								działalności firm. Dzięki temu można prowadzić przedsiębiorstwo bez długów, unikając problemów z
+								komornikami i wierzycielami. Ogłoszenie upadłości i likwidacja firmy to ostateczność, którą
+								rozważamy jako część strategii działania.
+							</p>
+							<div class="next__contacts contacts-bottom__info info-contacts-bottom">
+								<h2 class="info-contacts-bottom__title">Nie czekaj i skontaktuj się z nami już dziś!</h2>
+								<div class="info-contacts-bottom__uptitle">Oczekujemy na Twoje zapytanie przez całą dobę, 7 dni w
+									tygodniu.</div>
+								<p class="info-contacts-bottom__info">Zadzwoń lub napisz do nas. Najpóźniej w ciągu 12 godzin
+									oddzwoni do Ciebie nasz Doradca, który odpowie na wszystkie Twoje pytania i zaproponuje
+									najlepszy sposób na rozwiązanie Twoich problemów.</p>
+								<ul class="info-contacts-bottom__list">
+									<li class="info-contacts-bottom__item _icon-phone">
+										<a href="tel:739257999" class="info-contacts-bottom__link">739 257 999</a>
+									</li>
+									<li class="info-contacts-bottom__item _icon-mail">
+										<a href="mailto:biuro@restrukturyzacjapl.pl" class="info-contacts-bottom__link">biuro@restrukturyzacjapl.pl</a>
+									</li>
+								</ul>
+								<a href="#" data-popup=".callback" class="next__link _light-btn btn _light-border">Zgłoś się do nas już dziś</a>
+
+							</div>
+						</div>
+						<div class="next__body">
+							<div class="next__items">
+								<div class="next__item item-next">
+									<span>I</span>
+									<div class="item-next__info info-item-next">
+										<div class="info-item-next__title">Masz firme z problemami finansowymi?</div>
+									</div>
+								</div>
+								<div class="next__item item-next">
+									<span>II</span>
+									<div class="item-next__info info-item-next">
+										<div class="info-item-next__title">Zadzwon lub pisz smiato</div>
+										<div class="info-item-next__box">
+											<p class="info-item-next__text">Wypetnij nasz formularz kontaktowy, zadzwon lub napisz
+												e-mail. Odpowiemy w ciagu 8 godzin roboczych i doktadnie przeanalizujemy Twoja
+												sytuacje.</p>
+										</div>
+									</div>
+								</div>
+								<div class="next__item item-next">
+									<span>III</span>
+									<div class="item-next__info info-item-next">
+										<div class="info-item-next__title">Indywidualny plan dziatania.</div>
+										<div class="info-item-next__box">
+											<ul class="info-item-next__list">
+												<li class="info-item-next__item">
+													1. Przeprowadzenie audytu trudnej sytuacji ekonomicznej w Twojej firmie.
+												</li>
+												<li class="info-item-next__item">
+													2. Wdrozenie spersonalizowanego planu restrukturyzacyjnego.
+												</li>
+												<li class="info-item-next__item">
+													3. Opracowanie nowej strategi dziatalnosci, dostosowanej do Twoich potrzeb.
+												</li>
+												<li class="info-item-next__item">
+													4. Profesjonalne wsparcie ze strony naszego doswiadczonego sztabu specjalistów.
+												</li>
+												<li class="info-item-next__item">
+													5. Skuteczna ochrona Twojego majatku i kapitatu przed egzekucja komornicza.
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="next__item item-next">
+									<span>IV</span>
+									<div class="item-next__info info-item-next">
+										<div class="info-item-next__title">Trudnost pokonana</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="reviews" id="reviews">
+					<div class="reviews__container">
+						<div class="reviews__info info-reviews">
+							<h2 class="info-reviews__title">Nasz zespół działa kompleksowo, oferując wsparcie w
+								restrukturyzacji firmy. Posiadamy własny dział prawny, księgowy i finansowy.</h2>
+							<div class="info-reviews__info">
+								<p>Specjalizujemy się w przeprowadzaniu postępowań sanacyjnych dla firm. Nasze działania ratują
+									przedsiębiorstwa i pozwalają im działać bez zadłużeń, zgodnie z zasadami rynkowymi. Sanacja
+									to proces, który pomaga w uzdrowieniu sytuacji finansowej i prawnej firm. Dzięki naszym
+									usługom można prowadzić przedsiębiorstwo bez długów, problemów z komornikami i wierzycielami.
+								</p>
+								<p>Nasze doświadczenie obejmuje różne branże, w tym: BUDOWNICTWO | ROLNICTWO | TRANSPORT |
+									PRODUKCJA | HANDEL I USŁUGI.
+								</p>
+							</div>
+							<a data-popup=".callback" href="#" class="info-reviews__link _red-btn btn">Skontaktuj się z nami i wyjdź z długów</a>
+						</div>
+						<div class="reviews__main">
+							<span class="reviews__icon _icon-quotes"></span>
+							<!-- Оболонка слайдера -->
+							<div class="reviews__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="reviews__wrapper swiper-wrapper slider-reviews">
+									<!-- Слайд -->
+									<div class="reviews__slide swiper-slide reviews-slide">
+										<div class="reviews-slide__text">12312312Współpraca na najwyższym poziomie. Dzięki
+											profesjonalnemu
+											wsparciu, moja sprawa zakończyła się sukcesem. Wiem, że bez pomocy tak doświadczonej
+											kancelarii, szanse na pozytywne rozwiązanie byłyby znacznie mniejsze. Rozprawa
+											przebiegła pomyślnie, teraz przed nami kolejny etap, i na pewno skorzystam z ich pomocy
+											ponownie.
+										</div>
+										<div class="reviews-slide__hero">
+											<div class="reviews-slide__image-ibg">
+												<picture><source srcset="img/users/01.webp" type="image/webp"><img src="img/users/01.jpg" alt="User photo"></picture>
+											</div>
+											<div class="reviews-slide__hero-info">
+												<span class="reviews-slide__name">p. Agnieszka z Warszawy</span>
+												<span>500 000 zł zadłużenia</span>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide reviews-slide">
+										<div class="reviews-slide__text">Współpraca na najwyższym poziomie. Dzięki profesjonalnemu
+											wsparciu, moja sprawa zakończyła się sukcesem. Wiem, że bez pomocy tak doświadczonej
+											kancelarii, szanse na pozytywne rozwiązanie byłyby znacznie mniejsze. Rozprawa
+											przebiegła pomyślnie, teraz przed nami kolejny etap, i na pewno skorzystam z ich pomocy
+											ponownie.
+										</div>
+										<div class="reviews-slide__hero">
+											<div class="reviews-slide__image-ibg">
+												<picture><source srcset="img/users/01.webp" type="image/webp"><img src="img/users/01.jpg" alt="User photo"></picture>
+											</div>
+											<div class="reviews-slide__hero-info">
+												<span class="reviews-slide__name">p. Agnieszka z Warszawy</span>
+												<span>500 000 zł zadłużenia</span>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide swiper-slide reviews-slide">
+										<div class="reviews-slide__text">Współpraca na najwyższym poziomie. Dzięki profesjonalnemu
+											wsparciu, moja sprawa zakończyła się sukcesem. Wiem, że bez pomocy tak doświadczonej
+											kancelarii, szanse na pozytywne rozwiązanie byłyby znacznie mniejsze. Rozprawa
+											przebiegła pomyślnie, teraz przed nami kolejny etap, i na pewno skorzystam z ich pomocy
+											ponownie.
+										</div>
+										<div class="reviews-slide__hero">
+											<div class="reviews-slide__image-ibg">
+												<picture><source srcset="img/users/01.webp" type="image/webp"><img src="img/users/01.jpg" alt="User photo"></picture>
+											</div>
+											<div class="reviews-slide__hero-info">
+												<span class="reviews-slide__name">p. Agnieszka z Warszawy</span>
+												<span>500 000 zł zadłużenia</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-reviews__nav">
+								<button type="button" class="reviews-button-prev _icon-arrow"></button>
+								<button type="button" class="reviews-button-next _icon-arrow"></button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="contacts-bottom" id="contacts">
+					<img src="img//icons/02.svg" alt="icon" class="contacts-bottom__icon">
+					<picture><source srcset="img/background.webp" type="image/webp"><img class="contacts-bottom__background" src="img/background.jpg" alt="background contacts photo" data-scroll data-scroll-speed="-3.4"></picture>
+					<div class="contacts-bottom__container">
+						<div class="contacts-bottom__info info-contacts-bottom">
+							<h2 class="info-contacts-bottom__title">Nie czekaj i skontaktuj się z nami już dziś!</h2>
+							<div class="info-contacts-bottom__uptitle">Oczekujemy na Twoje zapytanie przez całą dobę, 7 dni w
+								tygodniu.</div>
+							<p class="info-contacts-bottom__info">Zadzwoń lub napisz do nas. Najpóźniej w ciągu 12 godzin
+								oddzwoni do Ciebie nasz Doradca, który odpowie na wszystkie Twoje pytania i zaproponuje
+								najlepszy sposób na rozwiązanie Twoich problemów.</p>
+							<ul class="info-contacts-bottom__list">
+								<li class="info-contacts-bottom__item _icon-phone">
+									<a href="tel:739257999" class="info-contacts-bottom__link">739 257 999</a>
+								</li>
+								<li class="info-contacts-bottom__item _icon-mail">
+									<a href="mailto:biuro@restrukturyzacjapl.pl" class="info-contacts-bottom__link">biuro@restrukturyzacjapl.pl</a>
+								</li>
+							</ul>
+
+						</div>
+						<form class="contacts-bottom__form form-contacts-bottom">
+							<div class="form-contacts-bottom__title">Napisz do nas teraz! Rozwiążemy Twój problem.
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="name">Imię i nazwisko: Opcjonalnie</label>
+								<input id="name" autocomplete="off" type="text" name="form[]" placeholder="Wpisz swoje imię i nazwisko" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="phone">Telefon:</label>
+								<input id="phone" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój numer telefonu" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="email">E-mail:</label>
+								<input id="email" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój adres e-mail" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom select-item">
+								<label for="">Wysokość zadłużenia:</label>
+								<select name="form[]" data-class-modif="form">
+									<option value="" selected>Wysokość zadłużenia</option>
+									<option value="2">do 10.000 zł</option>
+									<option value="3">do 50.000 zł</option>
+									<option value="4">do 100.000 zł</option>
+									<option value="4">do 500.000 zł</option>
+									<option value="5">powyżej 500.000 zł</option>
+								</select>
+							</div>
+							<button type="submit" class="_light-btn btn _light-border">Wyślij i wyjdź z długów</button>
+							<div class="checkbox">
+								<input checked id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label _icon-check"><span class="checkbox__text">Zgodnie z
+										zasadami Regulaminu i Polityki Prywatności zgadzam się na przetwarzanie moich danych
+										osobowych przez Administratora - pfkancelaria Sp. z o.o</span></label>
+							</div>
+						</form>
+					</div>
+				</section>
+				<!-- <section class="faq" id="faq">
+					<div class="faq__container">
+						<h2 class="faq__title"></h2>
+						<h3 class="faq__info"></h3>
+						<div data-spollers class="spollers">
+							<details class="spollers__item">
+								<summary class="spollers__title">Заголовок спойлера</summary>
+								<div class="spollers__body">Контент спойлера</div>
+							</details>
+						</div>
+						<button type="button" class=" sdf">sdf</button>
+					</div>
+				</section> -->
+				<section class="info">
+					<div class="info__container">
+						<p>Zgodnie z zasadami Regulaminu i Polityki Prywatności zgadzam się na przetwarzanie moich danych
+							osobowych przez Administratora - pfkancelaria Sp. z o.o Droga Użytkowniczko, Drogi Użytkowniku, od
+							dnia 25 maja 2018 roku zacznie obowiązywać Rozporządzenie Parlamentu Europejskiego i Rady (UE)
+							2016/679 z dnia 27 kwietnia 2016 r (dalej zwane – „RODO”), którego przedmiotem jest ochrona Twoich
+							danych osobowych.</p>
+						<p>W związku z tym pragniemy Cię poinformować, że w ramach prowadzenia naszej strony internetowej
+							korzystamy z wielu technologii służących zbieraniu i przetwarzaniu danych osobowych, także
+							związanych z plikami „cookie”.</p>
+						<p>Administratorem Twoich danych osobowych będzie pfkancelaria Spółka z ograniczoną
+							odpowiedzialnością. </p>
+						<p>Kancelaria przetwarza Twoje dane osobowe przede wszystkim w celu nawiązania kontaktu i ustalenia
+							warunków ewentualnej późniejszej współpracy, wyłącznie za Twoją zgodą i na wspólnie ustalonych
+							warunkach. Dodatkowo wykorzystujemy dane osobowe w celach prowadzenia działań marketingowych, w tym
+							analizowania i profilowania, a także świadczenia usług drogą elektroniczną, dopasowania treści
+							stron internetowych do preferencji i zainteresowań, wykrywania botów i nadużyć w usługach, a także
+							pomiarów
+							statystycznych i udoskonalenia usług. Jeżeli nie zechcesz przekazać nam danych osobowych może to
+							poskutkować brakiem możliwości świadczenia usług na Twoją rzecz.</p>
+						<div class="info__list">
+							<div class="info__list-title">Podstawą dla przetwarzania Twoich danych osobowych jest przede
+								wszystkim:</div>
+							<ul>
+								<li><span>I</span>
+									<p>Wyraźnie udzielona zgoda</p>
+								</li>
+								<li><span>II</span>
+									<p>Przygotowanie do zawarcia i realizacja umowy,</p>
+								</li>
+								<li><span>III</span>
+									<p>Nasz prawnie uzasadniony interes rozumiany jako konieczność wywiązania się z zawartej z
+										Tobą
+										umowy, podjęcie kontaktu na Twoją wyraźną prośbę, zapobieganie ewentualnym oszustwom
+										godzącym
+										w interesy Kancelarii oraz Twoje. Kancelaria dokłada najwyższej staranności w zakresie
+										ochrony danych osobowych przed udostępnieniem ich osobom trzecim. Wyjątkiem od tego jest
+										przekazywanie danych <a href="#">Zaufanym Podmiotom</a>, które świadczą usługi na rzecz
+										Kancelarii, np.:
+										zapewniającym hosting serwisów internetowych, a także <a href="#">Podmiotom Grupy
+											Kapitałowej</a>
+										współpracującym z Kancelarią w celu świadczenia kompleksowych pakietów usług najwyższej
+										jakości.</p>
+								</li>
+							</ul>
+						</div>
+						<p>Przysługuje Ci szereg uprawnień związanych z przetwarzaniem danych osobowych, m. in. prawo: dostępu
+							do danych, ich sprostowania, usunięcia lub ograniczenia przetwarzania, a także wniesienia sprzeciwu
+							wobec przetwarzania danych lub do przenoszenia danych. Dodatkowo możesz cofnąć udzieloną zgodę na
+							ich przetwarzanie. Masz także prawo wnieść skargę dotyczącą przetwarzania Twoich danych osobowych
+							do Prezesa Urzędu Ochrony Danych Osobowych.</p>
+						<p>W zależności od podstawy przetwarzania danych Kancelaria będzie je przetwarzać wyłącznie przez czas
+							potrzebny do realizowania celów, dla których zostały pobrane (np. wykonania postanowień zawartej
+							umowy) oraz z uwzględnieniem
+							obowiązków nałożonych przez RODO i inne przepisy.</p>
+						<p>Zapraszamy do zapoznania się ze szczegółowymi informacjami oraz zasadami przetwarzania danych
+							osobowych zamieszczonymi w Regulaminie i Polityce Prywatności.</p>
+					</div>
+				</section>
+
+			</main>
+			<footer class="footer" data-scroll>
+				<img class="footer__city-image" src="img/footer/01.svg" alt="image">
+				<div class="footer__container">
+					<div class="footer__top top-footer">
+						<div class="top-footer__action action-top-footer">
+							<p class="action-top-footer__info">Czy Twoja firma potrzebuje restrukturyzacji z powodu problemów
+								finansowych? Nie musisz ogłaszać upadłości – jest lepszy sposób!</p>
+							<a href="#" data-popup=".callback" class="action-top-footer__link _line-hover _light">ZAPISZ SIĘ!</a>
+						</div>
+						<div class="top-footer__center">
+							<div class="top-footer__logo">
+								<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Footer logo"></picture>
+							</div>
+							<div class="top-footer__light">
+								<a href="#">Made with <span class="_icon-love"></span> by tolight.studio</a>
+							</div>
+						</div>
+						<div class="top-footer__contacts contacts-top-footer">
+							<div class="contacts-top-footer__box">
+
+								<div class="contacts-top-footer__label">Contacts</div>
+								<ul class="contacts-top-footer__list">
+									<li class="contacts-top-footer__item">
+										<a href="#" class="contacts-top-footer__link _icon-phone "><span class="_hover-link _dark-link">739
+												257 999</span></a>
+									</li>
+									<li class="contacts-top-footer__item">
+										<a href="#" class="contacts-top-footer__link _icon-mail "><span class="_hover-link _dark-link">biuro@restrukturyzacjapl.pl</і></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<p class="bottom-footer__info">© 2023 Pfkancelaria Sp. - All rights reserved.</p>
+						<a href="legal.html" class="bottom-footer__link _hover-link _dark-link">REGULAMIN ORAZ POLITYKA PRYWATNOŚCI</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup callback">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					<div class="popup__left left-popup">
+						<picture><source srcset="img/modal/01.webp" type="image/webp"><img src="img/modal/01.jpg" alt="modal image"></picture>
+					</div>
+					<div class="popup__right right-popup">
+						<div class="right-popup__logo">
+							<div class="right-popup__box">
+								<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+								<div>Pomagamy <span>od 2015 roku</span></div>
+							</div>
+							<button data-close type="button" class="popup__close _icon-close"></button>
+						</div>
+						<form class="right-popup__form form-contacts-bottom">
+							<div class="form-contacts-bottom__title">Napisz do nas teraz! Rozwiążemy Twój problem.
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="name">Imię i nazwisko: Opcjonalnie</label>
+								<input id="name" autocomplete="off" type="text" name="form[]" placeholder="Wpisz swoje imię i nazwisko" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="phone">Telefon:</label>
+								<input id="phone" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój numer telefonu" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom">
+								<label for="email">E-mail:</label>
+								<input id="email" autocomplete="off" type="text" name="form[]" placeholder="Wprowadź swój adres e-mail" class="input">
+							</div>
+							<div class="form-contacts-bottom__item item-form-contacts-bottom select-item">
+								<label for="">Wysokość zadłużenia:</label>
+								<select name="form[]" data-class-modif="form">
+									<option value="" selected>Wysokość zadłużenia</option>
+									<option value="2">do 10.000 zł</option>
+									<option value="3">do 50.000 zł</option>
+									<option value="4">do 100.000 zł</option>
+									<option value="4">do 500.000 zł</option>
+									<option value="5">powyżej 500.000 zł</option>
+								</select>
+							</div>
+							<button type="submit" class="_light-btn btn _light-border">Wyślij i wyjdź z długów</button>
+							<div class="checkbox">
+								<input checked id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label _icon-check"><span class="checkbox__text">Zgodnie z
+										zasadami Regulaminu i Polityki Prywatności zgadzam się na przetwarzanie moich danych
+										osobowych przez Administratora - pfkancelaria Sp. z o.o</span></label>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231217174219"></script>
+
+
+</body>
+
+</html>
